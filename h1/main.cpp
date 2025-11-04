@@ -14,6 +14,7 @@ int main() {
     cout << "Anna toinen numero: " << endl;
     cin >> b;
     calcSum(a, b);
+    calcDiv(a, b);
     result = retSum(a, b);
     cout << a << " + " << b << " = " << result << endl;
     try {
@@ -40,7 +41,8 @@ void calcDiv(int a, int b)
     }
     else
     {
-        cout << a << " / " << b << " = " << a / b << endl;
+        float result = a / b;
+        cout << a << " / " << b << " = " << result << endl;
     }
 }
 
