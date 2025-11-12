@@ -13,9 +13,9 @@ int main()
 
     carList[1].printData();
 
-    for (int i = 0; i < 3; i++)
+    for (Car car : carList)
     {
-        carList[i].printData();
+        car.printData();
     }
     return 0;
 }
